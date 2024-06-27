@@ -1,4 +1,4 @@
-let scroe = 33
+let scroe = 33;
 
 console.log(typeofscroe);
-console.log(typeof(scroe))
+console.log(typeof scroe);
