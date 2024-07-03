@@ -25,13 +25,24 @@
 
 // console.log("result :",result);
 
-function logInUserMassage(username){
-if(username === undefined){
-    console.log("plase enter a username");
-    return
+// function logInUserMassage(username1) {
+//     if (username1 === undefined) {
+//         console.log("plase enter a username");
+//         return
+//     }
+//     return `${username1} just logged In`;
+// }
+
+// console.log(logInUserMassage("darshan"));
+// console.log(logInUserMassage());  // ans undifiend
+
+function logInUserMassage(username = "sam") {
+    if (!username) {
+        console.log("plase enter a username");
+        return
+    }
+    return `${username} just logged In`
 }
 
-    // return`${username} just logged In`
-}
-// console.log(logInUserMassage("yash"));
-console.log(logInUserMassage());  // ans undifiend
+// console.log(logInUserMassage("darshan"));
+console.log(logInUserMassage("yash"));  // ans undifiend
