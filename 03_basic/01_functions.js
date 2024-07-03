@@ -38,11 +38,41 @@
 
 function logInUserMassage(username = "sam") {
     if (!username) {
-        console.log("plase enter a username");
-        return
+        // console.log("plase enter a username");
+        // return
     }
     return `${username} just logged In`
 }
 
 // console.log(logInUserMassage("darshan"));
-console.log(logInUserMassage("yash"));  // ans undifiend
+// console.log(logInUserMassage("yash"));  // ans undifiend
+
+
+// function calculateCartPrice (val1, val2, ...num1){
+//     return num1
+// }
+
+// // console.log(calculateCartPrice(200, 400, 600, 2000));
+
+// const user ={
+//     username: "yash",
+//     price: 199
+// }
+
+// function handleObejct(anyobject){
+//     console.log(`username is ${anyobject.username} and price ${anyobject.price}`);
+// }
+
+// // handleObejct(user)
+// handleObejct({
+//     username: "raj",
+//     price: 300
+// })
+
+const myNewArray =[200, 400, 600, 100]
+
+function returnSecondValue (getarray){
+    return getarray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
